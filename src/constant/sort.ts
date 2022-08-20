@@ -1,0 +1,1 @@
+export const sorts = ['name', 'created', 'status'];

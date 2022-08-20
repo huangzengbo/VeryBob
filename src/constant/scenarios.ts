@@ -1,0 +1,20 @@
+export const scenarios = [
+    {
+        id: 1,
+        name: 'Scenario 1',
+        created: '2022-01-01T11:00:00',
+        status: 'optimised'
+    },
+    {
+        id: 2,
+        name: 'Scenario 5',
+        created: '2022-01-12T11:00:00',
+        status: 'incomplete'
+    },
+    {
+        id: 3,
+        name: 'Scenario 7',
+        created: '2022-06-01T11:00:00',
+        status: 'error'
+    }
+]
