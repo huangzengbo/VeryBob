@@ -3,7 +3,6 @@ import React, {useReducer} from 'react';
 import { iScenario } from '../types/scenario';
 import { iSort } from '../types/sort';
 import createCtx from '../utils/createCtx';
-import { scenarios } from '../constant/scenarios';
 
 interface Context {
   state: State;
@@ -29,7 +28,7 @@ export interface State {
 }
 
 const initialState: State = {
-  scenarios: scenarios,
+  scenarios: [],
   search: '',
   sort: {
     sortBy: 'name',
